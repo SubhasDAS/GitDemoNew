@@ -1,7 +1,6 @@
 package com.company;
 
 import java.util.Arrays;
-import java.util.Iterator;
 
 public class ArrayOddEven {
 	public static void getTheVale(int arr[]) {
