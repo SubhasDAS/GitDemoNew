@@ -25,7 +25,6 @@ public void setSalary(int salary) {
 public class Encapsulation {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		A a=new A();
 		a.setId(68);
 		a.setSalary(50000);
