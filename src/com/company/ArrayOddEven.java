@@ -4,9 +4,6 @@ import java.util.Arrays;
 
 public class ArrayOddEven {
 	public static void getTheVale(int arr[]) {
-//		for (int i = 0; i < arr.length; i++) {
-//			System.out.print(arr[i] + " ");
-//		}
 
 		System.out.print(Arrays.toString(arr));
 		

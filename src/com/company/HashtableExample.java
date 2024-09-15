@@ -11,7 +11,6 @@ public class HashtableExample {
         ht.put("Jane", 30);
         ht.put("Bob", 42);
         ht.put("Jane", 99);
-
         // Get the value associated with a key
         int age = ht.get("Jane");
         System.out.println("Jane's age is " + age);

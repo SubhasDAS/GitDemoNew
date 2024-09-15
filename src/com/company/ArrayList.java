@@ -3,8 +3,9 @@ package com.company;
 import java.util.*;
 
 public class ArrayList {
-
 	public static void main(String[] args) {
+		Integer[] n= {8,9,98};
+
 		List<Integer> arrli = new java.util.ArrayList<Integer>();
 		arrli.add(45);
 		arrli.add(66);
@@ -23,6 +24,15 @@ public class ArrayList {
 		for(int i= 0; i<len; i++) {
 			System.out.println(arr[i]);
 		}
+
+
+		System.out.println(arrli);
+		
+List<Integer> ls=Arrays.asList(n);
+		arrli.addAll(ls);
+		System.out.println(arrli);
+
+
 		  
 	}
 }
